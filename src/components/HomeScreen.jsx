@@ -34,7 +34,7 @@ export default function HomeScreen({ onEnter }) {
               রচনা: {bookInfo.author}
             </p>
             <p className="text-emerald-200/60 text-xs mb-1">
-              ভূমিকা: {bookInfo.introductionBy}
+              অনুবাদ: {bookInfo.translator}
             </p>
             <p className="text-emerald-200/60 text-xs mb-8">
               প্রকাশনায়: {bookInfo.publisher}

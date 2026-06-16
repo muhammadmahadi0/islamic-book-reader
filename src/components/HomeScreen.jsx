@@ -12,17 +12,12 @@ export default function HomeScreen({ onEnter }) {
       <div className="relative w-full max-w-md animate-fadeIn">
         <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-1 shadow-2xl border border-white/20">
           <div className="bg-gradient-to-br from-emerald-950 to-emerald-900 rounded-2xl p-8 sm:p-10 text-center">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-emerald-400 to-teal-400 flex items-center justify-center shadow-xl">
-              <svg className="w-8 h-8 sm:w-10 sm:h-10 text-emerald-950" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 3c-1.2 0-2.2.6-2.8 1.5L7 8.5c-.2.3-.3.7-.2 1l1.1 3.8c.1.4.4.7.8.8l3.3 1.2 3.3-1.2c.4-.1.7-.4.8-.8l1.1-3.8c.1-.3 0-.7-.2-1l-2.2-4C14.2 3.6 13.2 3 12 3z"/>
-                <path d="M6 15l-2 4h16l-2-4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                <path d="M12 15v5" stroke="currentColor" stroke-width="1.5" fill="none"/>
-                <circle cx="12" cy="6.5" r="1.5" fill="currentColor" opacity="0.3"/>
-                <path d="M9 19.5h6" stroke="currentColor" stroke-width="1.2" fill="none"/>
-                <path d="M4 15.5c1 0 2-.5 2-1.5 0 1 1 1.5 2 1.5" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
-                <path d="M16 15.5c1 0 2-.5 2-1.5 0 1 1 1.5 2 1.5" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
-                <path d="M10 12c0-1.1.9-2 2-2s2 .9 2 2" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
-              </svg>
+            <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-emerald-400 to-teal-400 flex items-center justify-center shadow-xl overflow-hidden p-1">
+              <img
+                src="https://cdn-icons-png.flaticon.com/256/10031/10031075.png"
+                alt="মসজিদ"
+                className="w-full h-full object-contain"
+              />
             </div>
 
             <div className="inline-block px-4 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-medium mb-4 border border-emerald-500/30">

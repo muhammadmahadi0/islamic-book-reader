@@ -30,13 +30,13 @@ export default function HomeScreen({ onEnter }) {
             <div className="w-16 h-0.5 bg-gradient-to-r from-transparent via-emerald-400 to-transparent mx-auto mb-3" />
 
             <p className="text-emerald-200/80 text-xs font-medium mb-1">
-              মূল: {bookInfo.originalAuthor}
+              রচনা: {bookInfo.author}
             </p>
             <p className="text-emerald-200/60 text-xs mb-1">
-              সংকলন ও সম্পাদনা: {bookInfo.author}
+              ভূমিকা: {bookInfo.introductionBy}
             </p>
             <p className="text-emerald-200/60 text-xs mb-8">
-              অনুবাদ: {bookInfo.translator}
+              প্রকাশনায়: {bookInfo.publisher}
             </p>
 
             <button
